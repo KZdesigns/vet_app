@@ -19,4 +19,9 @@ class UserTest < ActiveSupport::TestCase
     assert_not user7.save #check for format
   end
   #TODO: finish writing test for validations on User Model
+  test "password validation" do
+  end
+
+  test "phone number validation" do
+  end
 end
